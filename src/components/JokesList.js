@@ -8,9 +8,13 @@ const JokesList = ({jokes, onJokeClick}) => {
     })
 
     return (
-        <ul className="joke-list">
-            {jokesItems}
-        </ul>
+        <aside className="joke-list"> 
+            <h3>Pick a Chuck for a fact:</h3>   
+            <ul>
+                {jokesItems}
+            </ul>
+            <p>Chuck Norris made you scroll this far.</p>
+        </aside>
     )
 }
 

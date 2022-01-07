@@ -21,10 +21,13 @@ const ChuckContainer = () => {
     }
 
     return (
-        <>
+        <div className="container">
             <JokesList jokes={jokes} onJokeClick={onJokeClick}/>
-            { selectedJoke && <JokeText joke={selectedJoke}/>}
-        </>
+            <section className="main">
+                <img src={require('../chuck_image.jpeg')} />
+                { selectedJoke && <JokeText joke={selectedJoke}/>}
+            </section>
+        </div>
     )
 }
 

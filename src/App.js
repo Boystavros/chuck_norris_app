@@ -1,10 +1,11 @@
 import MainContainer from './containers/ChuckContainer';
 import './App.css';
+import './Chuck.css';
 
 function App() {
   return (
     <>
-      <h1>Chuck Norris App</h1>
+      <h1>Chuck Out My App!</h1>
       <MainContainer />
     </>
   );

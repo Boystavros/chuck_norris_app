@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+}
+
+.container {
+    width: 60vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 1;
+    column-gap: 1.5rem;
+}
+
+.joke-list ul { 
+    list-style:square;
+    grid-column: 1;
+}
+
+.main {
+    grid-column: 2;
+    align-content: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr 30fr;    
+}
+
+.main img {
+    margin: auto auto;
+
+}
+
+.joke-text {
+    border: solid 3px red;
+    padding: 50px;
+    margin: auto auto;
+    
+    
+}
+
